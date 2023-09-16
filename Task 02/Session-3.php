@@ -10,7 +10,7 @@
 
 <?
 
-    # Constant i PHP
+    # Constant in PHP
     /* 1- define(string name, string value , case_insenstive) */
 
     # Constans are Global Scope
@@ -83,6 +83,33 @@
         echo "Falsey";
     }
 
+    
+    # Line Break
+    echo "<br>";
+
+
+    // Array
+    $arr = [10,20,30,40,50];
+
+    # print_r
+    print_r($arr);
+
+    # Line Break
+    echo "<br>";
+
+    // Looping inside array with forech()
+    foreach ($arr as $item){
+        echo "The Array Item is ".$item."<br>";
+    }
+
+    # Line Break
+    echo "<br>";
+
+    // Looping inside array with for()
+
+    for($x=0; $x<count($arr); $x++){
+        echo $arr[$x]."<br>";
+    }
 
 
 ?>
