@@ -301,10 +301,22 @@ print_r($arr_pop);
 
 
 # array_slice Method
+$arr_slice = [1,2,3,4,5];
+print_r(array_slice($arr_slice, 2)); // Means start array from the 3rd element ad return the rest of the array
+
+echo "<br>";
+
+// We can Control the start and the end of the array by giving array_slice 2 arrguments
+print_r(array_slice($arr_slice, 1, 3)); // It will start from 2nd elemet till the 4th
+
+echo "<br>";
 
 
 
 # array_splice Method
+$arr_splice = ["Hate", "PHP"]; // it will remove selected rage
+array_splice($arr_splice, 0, 1);
+print_r($arr_splice);
 
 
 ?>
